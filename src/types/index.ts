@@ -6,6 +6,7 @@ export interface Service {
   description: string;
   icon: string;
   benefits: string[];
+  price?: string; // Optional pricing information
 }
 
 export interface Project {

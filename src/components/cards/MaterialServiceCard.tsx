@@ -8,7 +8,7 @@ import Image from 'next/image';
 // Service image mapping with relevant images and translations
 const getServiceImageAndTranslation = (serviceTitle: string): { imageUrl: string; englishTitle: string } => {
   const title = serviceTitle.toLowerCase();
-  
+
   if (title.includes('çatı')) {
     return {
       imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&crop=center',
@@ -40,7 +40,7 @@ const getServiceImageAndTranslation = (serviceTitle: string): { imageUrl: string
       englishTitle: 'Fire Insulation'
     };
   }
-  
+
   return {
     imageUrl: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop&crop=center',
     englishTitle: 'Insulation Service'
